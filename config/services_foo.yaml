@@ -1,0 +1,3 @@
+services:
+  App\Foo\FooComposite:
+    arguments: [!tagged_iterator "app.foo"]
